@@ -1,20 +1,3 @@
-/*    Code to control up to 4 actuators, using the Robot Power MultiMoto driver.
-   Hardware:
-    - Robot Power MultiMoto
-    - Arduino Uno
-
-    Wiring:
-  - Connect actuators to the M1, M2, M3, M4 connections on the MultiMoto board.
-  - Connect the negative (black) to the right connection, positive (red) to the left.
-  - Connect a 12 volt source (minimum 1A per motor if unloaded, 8A per motor if fully loaded)to the BAT terminals. Ensure that positive and negative are placed in the correct spots.
-
-   Code modified by Progressive Automations from the example code provided by Robot Power
-     <a href="http://www.robotpower.com/downloads/" rel="nofollow"> http://www.robotpower.com/downloads/</a>
-
-    Robot Power MultiMoto v1.0 demo
-    This software is released into the Public Domain
-*/
-
 // include the SPI library:
 
 #include <SPI.h>    //defines variable names
